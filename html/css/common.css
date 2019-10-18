@@ -1,0 +1,8 @@
+/* CSS Document */
+ul,li,ol,dl,dt,dd,body,p,h1,h2,h3,h4,h5,h6{
+	margin:0;padding:0;
+}
+html,body{font-family:"微软雅黑";font-size:12px;color:#333;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+a{text-decoration:none;color:#333;}
+ul,li,ol{list-style:none;}

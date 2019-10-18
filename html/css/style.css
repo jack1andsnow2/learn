@@ -1,0 +1,66 @@
+/* CSS Document */
+.common{width:962px;
+		margin:0 auto;/*元素水平居中*/
+		}/*很多元素宽度一样，可以单独调用*/
+.logo{
+	height:100px;
+	/*background:red;*/
+	}
+.logo img{float:left}/*同级元素要浮动都浮动*/
+.logo input{float:right;width:226px;height:26px;background:#f1f1f1;
+		border:1px solid #e5e5e5;
+		margin-top:39px;
+}
+.nav{
+	height:58px;
+	background:#323232;
+	}
+.nav li{float:left;
+	line-height:58px;/*单行文字垂直居中*/
+	border-right:1px solid #494949;/*设置右边边框*/
+	width:119px;
+	text-align:center;/*水平居中*/
+}/*水平排列*/
+.nav a{color:#fff;}
+#last{border-right:none;}
+
+.main1{
+	height:244px;
+/*	background:yellow;*/
+}
+.m1_l{
+	width:480px;
+	height:244px;
+
+	float:left;
+	}
+.main1 p{line-height:24px;margin-bottom:20px;}
+.main1 p span{font-size:14px;}
+.main1 h2{
+	padding:35px 0 25px;
+	font-size:16px;
+	}
+.m1_l li{
+	line-height:24px;
+	background:url(../images/img_08.jpg) no-repeat left center;
+	text-indent:12px;
+	}
+.m1_l span{float:right;padding-right:26px;}
+.one{color:#a5a5a5;}
+.m1_c{
+	width:192px;
+	height:244px;
+	background:#f1f1f1;
+	float:left;
+	padding:0 25px;
+	}
+.m1_r{
+	width:190px;
+	height:244px;
+	background:#699;
+	float:right;
+	padding:0 25px;
+	background:url(../images/img_12.jpg) no-repeat right bottom;
+	}
+
+
